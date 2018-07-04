@@ -1,0 +1,29 @@
+text = pyqrcode.create('laptop')
+text.svg('laptop.svg', scale=8)
+text.eps('laptop.eps', scale=2)
+print(text.terminal(quiet_zone=1))
+
+text = pyqrcode.create('server1')
+text.svg('server1.svg', scale=8)
+text.eps('server1.eps', scale=2)
+print(text.terminal(quiet_zone=1))
+
+text = pyqrcode.create('server2')
+text.svg('server2.svg', scale=8)
+text.eps('server2.eps', scale=2)
+print(text.terminal(quiet_zone=1))
+
+text = pyqrcode.create('server3')
+text.svg('server3.svg', scale=8)
+text.eps('server3.eps', scale=2)
+print(text.terminal(quiet_zone=1))
+
+text = pyqrcode.create('server4')
+text.svg('server4.svg', scale=8)
+text.eps('server4.eps', scale=2)
+print(text.terminal(quiet_zone=1))
+
+text = pyqrcode.create('oven')
+text.svg('oven.svg', scale=8)
+text.eps('oven.eps', scale=2)
+print(text.terminal(quiet_zone=1))
